@@ -1,1 +1,31 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Elite Scents RD"><rect width="128" height="128" rx="28" fill="#0b0a0a"/><circle cx="64" cy="64" r="50" fill="none" stroke="#d3a74d" stroke-width="3"/><path d="M54 30h20v12H54zM50 42h28v10H50zM45 54c0-5 4-9 9-9h20c5 0 9 4 9 9v37c0 5-4 9-9 9H54c-5 0-9-4-9-9V54z" fill="none" stroke="#d3a74d" stroke-width="4"/><path d="M54 66h20M54 78h20" stroke="#d3a74d" stroke-width="3" stroke-linecap="round"/><text x="64" y="118" fill="#d3a74d" font-family="Georgia,serif" font-size="10" text-anchor="middle" font-weight="700">ELITE</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 150" role="img" aria-label="Elite Scents RD">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="46%" r="68%">
+      <stop offset="0" stop-color="#17130c"/>
+      <stop offset="0.72" stop-color="#070707"/>
+      <stop offset="1" stop-color="#000"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff0a1"/>
+      <stop offset="0.3" stop-color="#d6a43e"/>
+      <stop offset="0.6" stop-color="#fff2ae"/>
+      <stop offset="1" stop-color="#9b6517"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="2.2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="150" height="150" rx="20" fill="url(#bg)"/>
+  <circle cx="75" cy="75" r="62" fill="none" stroke="#a36b1f" stroke-width="1.2" opacity=".8"/>
+  <circle cx="75" cy="75" r="59" fill="none" stroke="url(#gold)" stroke-width="1.15"/>
+  <path d="M19 61 C26 35 46 17 71 13 M131 52 C125 28 110 17 93 13" fill="none" stroke="#d39a30" stroke-width="1" opacity=".55" filter="url(#glow)"/>
+  <path d="M120 25 C132 40 135 58 130 73 M27 112 C42 128 60 137 78 138" fill="none" stroke="#c98f2c" stroke-width=".9" opacity=".5"/>
+  <text x="75" y="63" fill="url(#gold)" font-family="Georgia, 'Times New Roman', serif" font-size="47" font-weight="700" text-anchor="middle" letter-spacing="-8">ES</text>
+  <text x="75" y="91" fill="url(#gold)" font-family="Georgia, 'Times New Roman', serif" font-size="22" font-weight="700" text-anchor="middle" letter-spacing="3">ELITE</text>
+  <line x1="43" y1="100" x2="107" y2="100" stroke="#b77b20" stroke-width=".8"/>
+  <text x="75" y="111" fill="#d9ac54" font-family="Georgia, 'Times New Roman', serif" font-size="8" text-anchor="middle" letter-spacing="3">SCENTS</text>
+  <text x="75" y="124" fill="#d9ac54" font-family="Georgia, 'Times New Roman', serif" font-size="7" text-anchor="middle" letter-spacing="2.5">RD</text>
+  <circle cx="27" cy="43" r="2.4" fill="#f3c565" opacity=".85" filter="url(#glow)"/>
+  <circle cx="124" cy="82" r="1.6" fill="#d69b32" opacity=".75" filter="url(#glow)"/>
+</svg>
