@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /borrador-paso-6.html
+Sitemap: https://gabrielpdrd05.github.io/elite-scents-rd/sitemap.xml
