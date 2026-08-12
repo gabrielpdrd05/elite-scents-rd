@@ -1,0 +1,4 @@
+Contact: https://wa.me/18094333348
+Canonical: https://gabrielpdrd05.github.io/elite-scents-rd/.well-known/security.txt
+Preferred-Languages: es
+Expires: 2027-08-12T23:59:59Z
